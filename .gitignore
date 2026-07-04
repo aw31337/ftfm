@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets — never commit these
+*.env
+*.key
+*.pem
+*.p12
+credentials*
+secrets*
+
+# Case data — never commit actual evidence or case files
+case-data/
+evidence/
+*.E01
+*.dd
+*.img
+*.raw
+*.mem
+*.dmp
